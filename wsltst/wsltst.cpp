@@ -34,5 +34,6 @@ int main()
 
 	std::string response_data = boost::asio::buffer_cast<const char*>(response.data());
 	std::cout << response_data << std::endl;
+	std::cout << "test 완료" << std::endl;
 	return 0;
 }
