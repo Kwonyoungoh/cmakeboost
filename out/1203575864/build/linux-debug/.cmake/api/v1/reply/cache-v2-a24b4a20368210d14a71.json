@@ -2,70 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "Boost_ATOMIC_LIBRARY_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Boost atomic library (debug)"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Boost_ATOMIC_LIBRARY_DEBUG-NOTFOUND"
-		},
-		{
-			"name" : "Boost_ATOMIC_LIBRARY_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Boost atomic library (release)"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Boost_ATOMIC_LIBRARY_RELEASE-NOTFOUND"
-		},
-		{
-			"name" : "Boost_CHRONO_LIBRARY_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Boost chrono library (debug)"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Boost_CHRONO_LIBRARY_DEBUG-NOTFOUND"
-		},
-		{
-			"name" : "Boost_CHRONO_LIBRARY_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Boost chrono library (release)"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Boost_CHRONO_LIBRARY_RELEASE-NOTFOUND"
-		},
-		{
 			"name" : "Boost_DIR",
 			"properties" : 
 			[
@@ -79,87 +15,59 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "Boost_DIR-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0"
 		},
 		{
 			"name" : "Boost_INCLUDE_DIR",
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/rnjsd/lib/boost_1_81_0"
-		},
-		{
-			"name" : "Boost_SYSTEM_LIBRARY_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Boost system library (debug)"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Boost_SYSTEM_LIBRARY_DEBUG-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "Boost_SYSTEM_LIBRARY_RELEASE",
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Boost system library (release)"
+					"value" : ""
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "Boost_SYSTEM_LIBRARY_RELEASE-NOTFOUND"
-		},
-		{
-			"name" : "Boost_THREAD_LIBRARY_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Boost thread library (debug)"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Boost_THREAD_LIBRARY_DEBUG-NOTFOUND"
+			"type" : "STRING",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0"
 		},
 		{
 			"name" : "Boost_THREAD_LIBRARY_RELEASE",
 			"properties" : 
 			[
 				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0"
+		},
+		{
+			"name" : "CMAKE_ADDR2LINE",
+			"properties" : 
+			[
+				{
 					"name" : "ADVANCED",
 					"value" : "1"
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Boost thread library (release)"
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "Boost_THREAD_LIBRARY_RELEASE-NOTFOUND"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -175,7 +83,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/lib.exe"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -199,7 +107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/rnjsd/source/repos/wsltst/out/build/x64-debug"
+			"value" : "/home/youngoh/.vs/cmakeboost/out/build/linux-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -223,7 +131,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "24"
+			"value" : "19"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -235,7 +143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "202208181"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -247,7 +155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
+			"value" : "/home/youngoh/.vs/cmake/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -259,7 +167,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
+			"value" : "/home/youngoh/.vs/cmake/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -271,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
+			"value" : "/home/youngoh/.vs/cmake/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -283,11 +191,43 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "cl.exe"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/c++"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar-9"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -303,7 +243,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
@@ -319,7 +259,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MDd /Zi /Ob0 /Od /RTC1"
+			"value" : "-g"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -335,7 +275,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MD /O1 /Ob1 /DNDEBUG"
+			"value" : "-Os -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELEASE",
@@ -351,7 +291,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MD /O2 /Ob2 /DNDEBUG"
+			"value" : "-O3 -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
@@ -367,23 +307,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MD /Zi /O2 /Ob1 /DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Libraries linked by default with all C++ applications."
-				}
-			],
-			"type" : "STRING",
-			"value" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib"
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -395,11 +319,43 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "cl.exe"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/cc"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar-9"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -415,7 +371,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/DWIN32 /D_WINDOWS /W3"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_DEBUG",
@@ -431,7 +387,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MDd /Zi /Ob0 /Od /RTC1"
+			"value" : "-g"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -447,7 +403,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MD /O1 /Ob1 /DNDEBUG"
+			"value" : "-Os -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELEASE",
@@ -463,7 +419,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MD /O2 /Ob2 /DNDEBUG"
+			"value" : "-O3 -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -479,10 +435,10 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MD /Zi /O2 /Ob1 /DNDEBUG"
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
-			"name" : "CMAKE_C_STANDARD_LIBRARIES",
+			"name" : "CMAKE_DLLTOOL",
 			"properties" : 
 			[
 				{
@@ -491,11 +447,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Libraries linked by default with all C applications."
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
-			"value" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib"
+			"type" : "FILEPATH",
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -507,7 +463,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Unknown"
+			"value" : "ELF"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS",
@@ -523,7 +479,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
@@ -539,7 +495,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/debug /INCREMENTAL"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
@@ -555,7 +511,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/INCREMENTAL:NO"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
@@ -571,7 +527,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/INCREMENTAL:NO"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
@@ -587,7 +543,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/debug /INCREMENTAL"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -616,18 +572,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : ""
-		},
-		{
-			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake."
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/rnjsd/source/repos/wsltst/out/build/x64-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -711,7 +655,19 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include pthread.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_HOME_DIRECTORY",
@@ -723,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/rnjsd/source/repos/wsltst"
+			"value" : "/home/youngoh/.vs/cmakeboost"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -735,7 +691,19 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/rnjsd/source/repos/wsltst/out/install/x64-debug"
+			"value" : "/home/youngoh/.vs/cmakeboost/out/install/linux-debug"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SO_NO_EXE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install .so files without execute permission."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -751,19 +719,23 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/link.exe"
+			"value" : "/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "make program"
+					"value" : "Program used to build from build.ninja files."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
+			"value" : "/usr/bin/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -779,7 +751,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
@@ -795,7 +767,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/debug /INCREMENTAL"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
@@ -811,7 +783,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/INCREMENTAL:NO"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
@@ -827,7 +799,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/INCREMENTAL:NO"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
@@ -843,10 +815,10 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/debug /INCREMENTAL"
+			"value" : ""
 		},
 		{
-			"name" : "CMAKE_MT",
+			"name" : "CMAKE_NM",
 			"properties" : 
 			[
 				{
@@ -859,7 +831,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/mt.exe"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -872,6 +844,38 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "2"
+		},
+		{
+			"name" : "CMAKE_OBJCOPY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objcopy"
+		},
+		{
+			"name" : "CMAKE_OBJDUMP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -926,43 +930,19 @@
 			"properties" : 
 			[
 				{
-					"name" : "HELPSTRING",
-					"value" : "noop for ranlib"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ":"
-		},
-		{
-			"name" : "CMAKE_RC_COMPILER",
-			"properties" : 
-			[
-				{
 					"name" : "ADVANCED",
 					"value" : "1"
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "RC compiler"
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/rc.exe"
+			"value" : "/usr/bin/ranlib"
 		},
 		{
-			"name" : "CMAKE_RC_COMPILER_WORKS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS",
+			"name" : "CMAKE_READELF",
 			"properties" : 
 			[
 				{
@@ -971,75 +951,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during all build types."
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "STRING",
-			"value" : "-DWIN32"
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during DEBUG builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-D_DEBUG"
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during MINSIZEREL builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during RELEASE builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_RC_FLAGS_RELWITHDEBINFO",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags for Windows Resource Compiler during RELWITHDEBINFO builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1051,7 +967,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24"
+			"value" : "/home/youngoh/.vs/cmake/share/cmake-3.19"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1067,7 +983,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
@@ -1083,7 +999,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/debug /INCREMENTAL"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
@@ -1099,7 +1015,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/INCREMENTAL:NO"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
@@ -1115,7 +1031,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/INCREMENTAL:NO"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
@@ -1131,7 +1047,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/debug /INCREMENTAL"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_SKIP_INSTALL_RPATH",
@@ -1179,7 +1095,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/machine:x64"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
@@ -1246,6 +1162,34 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_STRIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/strip"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/uname"
+		},
+		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
 			"properties" : 
 			[
@@ -1271,79 +1215,71 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/rnjsd/lib/boost_1_81_0][c ][v1.81.0(1.74)]"
+			"value" : "[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: system thread ][v1.71.0(1.71)]"
 		},
 		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"name" : "boost_atomic_DIR",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "Details about finding Threads"
+					"value" : "The directory containing a CMake configuration file for boost_atomic."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : "[TRUE][v()]"
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0"
 		},
 		{
-			"name" : "_BOOST_ROOT_LAST",
+			"name" : "boost_headers_DIR",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "Last used BOOST_ROOT value."
+					"value" : "The directory containing a CMake configuration file for boost_headers."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : "C:/Users/rnjsd/lib/boost_1_81_0"
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0"
 		},
 		{
-			"name" : "_Boost_COMPONENTS_SEARCHED",
+			"name" : "boost_system_DIR",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "Components requested for this build tree."
+					"value" : "The directory containing a CMake configuration file for boost_system."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : ""
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0"
 		},
 		{
-			"name" : "_Boost_INCLUDE_DIR_LAST",
+			"name" : "boost_thread_DIR",
 			"properties" : 
 			[
 				{
-					"name" : "HELPSTRING",
-					"value" : "Last used Boost_INCLUDE_DIR value."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "C:/Users/rnjsd/lib/boost_1_81_0"
-		},
-		{
-			"name" : "_Boost_NAMESPACE_LAST",
-			"properties" : 
-			[
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Last used Boost_NAMESPACE value."
+					"value" : "The directory containing a CMake configuration file for boost_thread."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : "boost"
-		},
-		{
-			"name" : "_Boost_USE_MULTITHREADED_LAST",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Last used Boost_USE_MULTITHREADED value."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0"
 		},
 		{
 			"name" : "wsltst_BINARY_DIR",
@@ -1355,19 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/rnjsd/source/repos/wsltst/out/build/x64-debug"
-		},
-		{
-			"name" : "wsltst_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
+			"value" : "/home/youngoh/.vs/cmakeboost/out/build/linux-debug"
 		},
 		{
 			"name" : "wsltst_SOURCE_DIR",
@@ -1379,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/rnjsd/source/repos/wsltst"
+			"value" : "/home/youngoh/.vs/cmakeboost"
 		}
 	],
 	"kind" : "cache",

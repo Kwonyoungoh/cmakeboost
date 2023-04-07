@@ -65,8 +65,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/rnjsd/source/repos/wsltst/out/build/x64-debug",
-		"source" : "C:/Users/rnjsd/source/repos/wsltst"
+		"build" : "C:/Users/rnjsd/source/repos/cmakeboost/out/build/x64-debug",
+		"source" : "C:/Users/rnjsd/source/repos/cmakeboost"
 	},
 	"version" : 
 	{

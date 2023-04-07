@@ -63,8 +63,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/youngoh/.vs/wsltst/out/build/linux-debug",
-		"source" : "/home/youngoh/.vs/wsltst"
+		"build" : "/home/youngoh/.vs/cmakeboost/out/build/linux-debug",
+		"source" : "/home/youngoh/.vs/cmakeboost"
 	},
 	"version" : 
 	{
