@@ -10,7 +10,7 @@ if (WIN32)
 else ()
 # 무조건 저경로임
     set(BOOST_ROOT "/usr/include/boost")
-    find_package(Boost "1.74" REQUIRED COMPONENTS system thread)
+    find_package(Boost "1.71" REQUIRED COMPONENTS system thread)
 endif ()
 
 # Boost 1.74.0 이상 지원한다는 뜻 
